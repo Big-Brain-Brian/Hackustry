@@ -15,15 +15,15 @@ Blocks.scrapWallHuge.buildVisibility = BuildVisibility.shown;
 Blocks.scrapWallGigantic.buildVisibility = BuildVisibility.shown;
 
 // integer limit broke this for some reason, i am putting 99999 instead
-Blocks.coreShard.unitCapModifier = 99999;
-Blocks.coreFoundation.unitCapModifier = 99999;
-Blocks.coreNucleus.unitCapModifier = 99999;
+Blocks.coreShard.unitCapModifier = 10;
+Blocks.coreFoundation.unitCapModifier = 100;
+Blocks.coreNucleus.unitCapModifier = 10000;
 
 // Make the reconstructors instant and free
-Blocks.additiveReconstructor.constructTime = 0;
-Blocks.multiplicativeReconstructor.constructTime = 0;
-Blocks.exponentialReconstructor.constructTime = 0;
-Blocks.tetrativeReconstructor.constructTime = 0;
+Blocks.additiveReconstructor.constructTime = 5;
+Blocks.multiplicativeReconstructor.constructTime = 25;
+Blocks.exponentialReconstructor.constructTime = 50;
+Blocks.tetrativeReconstructor.constructTime = 100;
 
 Blocks.additiveReconstructor.consumes.items();
 Blocks.multiplicativeReconstructor.consumes.items();
